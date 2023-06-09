@@ -1,0 +1,33 @@
+header{
+    max-width: 100%;
+}
+
+.cabecalho {
+    text-align: center;
+    background-image: var(--preto-degrade);
+
+}
+
+.menu__lista {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: solid transparent;
+    border-radius: 10px;
+    padding: 1em;
+    margin: 0.2em;
+    background-image: var(--preto-degrade);
+}
+
+.menu__lista-link {
+    text-decoration: none;
+    color: var(--cor-menu);
+    font-weight: 400;
+    font-size: 22px;
+    margin: 0.1em;
+    padding: 0.2em;
+}
+
+.menu__lista-link:active{
+    color: black;
+}
