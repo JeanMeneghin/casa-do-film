@@ -1,25 +1,16 @@
-@import url("reset.css");
-@import url("header.css");
-@import url("inicio.css");
-@import url("carrossel.css");
-@import url("localizacao.css");
-@import url("footer.css");
-
-:root {
-    --cinza-claro: #cecece;
-    --preto-degrade: linear-gradient(to bottom, #171717, gray, #171717);
-    --cor-menu: white;    
-    --fonte-principal: 'Kalam';
-    --cor-secundaria: #342200;
-    --cor-rodapé: black;
-    --texto-rodapé: white;
+.main-title{
+    font-weight: 700;
 }
 
+.text-empresa{
+    font-size: 1em;
+}
 
-body {
-    background-color: var(--cinza-claro);
-    font-size: 16px;
-    font-weight: 400;
-    font-family: var(--fonte-principal);
-    max-width: 100vw;
+footer {
+    background-color: black;
+    padding: 2em 0em 0.5em 0em;
+}
+
+html {
+    min-width: 280px;
 }
