@@ -1,0 +1,15 @@
+.block-with-text {
+    overflow: hidden;
+    position: relative;
+    line-height: 1.2em;
+    max-height: 15px; /* aqui vc controla a altura da caixa de texto */
+    text-align: justify;
+}
+.block-with-text:before {
+    content: '...';
+    position: absolute;
+    right: 0px;
+    bottom: 0;
+    background-color: #ffffff;
+    padding: 0 0px 0 0.25em;
+}
