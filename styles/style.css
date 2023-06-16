@@ -15,11 +15,6 @@ html {
     min-width: 280px;
 }
 
-body {
-    /*background: linear-gradient(180deg, rgba(215,215,215,1) 0%, rgba(105,105,105,1) 100%);*/
-    
-}
-
 .banner-1 {
     background-image: url(/assets/bg-banner1.png);
     width: 100%;
