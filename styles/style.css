@@ -24,3 +24,7 @@ html {
     background-position: center;
     background-attachment: fixed;
   }
+
+.texto-visao, .texto-missao, .texto-valores {
+    text-align: justify;
+}
